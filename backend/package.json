@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p ../build/backend && cp -r src ../build/backend/ && cp package.json ../build/backend/ && cp package-lock.json ../build/backend/ 2>/dev/null || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11",
+    "puppeteer": "^24.30.0"
+  }
+}

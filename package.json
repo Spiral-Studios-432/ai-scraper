@@ -1,0 +1,18 @@
+{
+  "name": "ai-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Scraper project with frontend and backend",
+  "scripts": {
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:frontend": "cd frontend/frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "preview": "cd frontend/frontend && npm run preview",
+    "clean": "rm -rf build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
